@@ -1,0 +1,121 @@
+.single-content{
+    height: 100%;
+    position: relative;
+    transition: 3s;
+    box-shadow: 10px 20px 20px rgba(0,0,0,0.8);
+}
+.single-content .text-content,
+.single-content:after{
+    position: absolute;
+    left: -1px;
+    right: 1px;
+    top: 73px;
+    height: 100%;
+} 
+.single-content:after{
+    content: '';
+    display: block;
+    background: #1e25438a;
+    top:1px;
+    bottom: 1px;
+    opacity: 0;
+    transform: rotate3d(-1,1,0,100deg);
+    transition: .4s;
+}
+.single-content:hover:after{
+    opacity: .9;
+    transform: rotate3d(0,0,0,0deg);
+}
+.text-content{
+    top:43%;
+    opacity: 0;
+    z-index:1;
+    transform: translate(10%, -30%);
+    transition: .3s;
+    text-align: center;
+}
+.single-content:hover .text-content{
+opacity: 1;
+transform: translate(0, -50%);
+transition: .3s;
+}
+
+ .row{
+    justify-content: space-between;
+    width: 100%;
+    margin: 0% 0% 0% -6%;
+} 
+.container{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    flex-wrap: wrap;
+    margin-left: 0%;
+    z-index:2;
+    position: absolute;
+}
+.imgFondo{
+    width: 100%;
+    height: 130vh;
+    z-index: 1;
+    position: absolute;   
+}
+img{
+    height: 100%;
+}
+.proyectos{
+    display: flex;
+}
+.card-text {
+    margin: 15% 0% 0% -6%;
+    background: linear-gradient(to bottom, #092346d6 0%, #e0425cd6 100%);
+    font-size: 23px;
+    border-radius: 1px;
+}
+.card{
+    width: 24rem;
+    margin: 7% 0% 0% 2%;
+    background-color: none;
+}
+.btn-primary{
+    background-color: #092346;
+    color: #FFF;
+    border-radius: 1px;
+    border: 1px solid #061932;
+    width: 50%;
+}
+.btn-primary:hover{
+    color: #FFF;
+    background-color:#e0425cd6;
+    border:1px solid #ff3e5ed6;
+    width: 50%;
+}
+@media screen and (max-width:600px){
+
+    .container{
+        display: flex;
+        flex-direction: row;
+        max-width: 100%;
+        flex-wrap: wrap;
+        margin-top: 40%;
+        z-index:1;
+    }
+    .card-text {
+        margin: 10% 0% 0% -7%;
+        background: linear-gradient(to bottom, #092346d6 0%, #e0425cd6 100%);
+        font-size: 19px;
+        border-radius: 1px;
+    }
+    .card{
+        width: 24rem;
+        margin: 14% 0% 0% 2%;
+        background-color: none;
+    }
+    .imgFondo {
+        width: 100%;
+        height: 100vh;
+        z-index: 1;
+        position: fixed;
+    }
+
+}
