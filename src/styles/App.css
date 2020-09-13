@@ -17,7 +17,6 @@
   border-right: 1px solid #ffffff33;
 }
 .menu-links:hover{
-  border-bottom: 2px solid #e0425c; 
 background: linear-gradient(to bottom, #092346 0%, #e0425c 100%);
   text-decoration-line: none;
   color: #ffffff;
@@ -29,7 +28,7 @@ background: linear-gradient(to bottom, #092346 0%, #e0425c 100%);
 }
 .logo{
   width: 10%;
-  margin-left: -22%;
+  margin-left: -15%;
 }
 
 
@@ -69,10 +68,11 @@ background: linear-gradient(to bottom, #092346 0%, #e0425c 100%);
       color: white;
 
   }
-  .menu-links:hover{
-      background-color: tomato;
-      border-radius: 0;
-  }
+  .menu-links:hover {
+    background: none;
+    border-radius: 0;
+    width: 54vh;
+}
   .menu-icon{
       display: flex;
       position: fixed;

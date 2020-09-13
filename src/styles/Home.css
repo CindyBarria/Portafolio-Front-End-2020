@@ -29,14 +29,14 @@ h2{
 .title{
 
     height: 18%;
-    width: 61%;
+    width: 100%;
     display: flex;
     padding: 6%;
     border-radius: 16px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 18% 0% 0% 19%;
+    margin: 18% 0% 0% 0%;
     z-index:2;
 }
 @media screen and (max-width:600px){

@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Skills.css';
 import Fondo from '../assets/fondo2.jpg';
-import Figma from '../assets/Vector.png';
+import Figma from '../assets/figma.png';
 import Firebase from '../assets/firebase.png';
 const Skills = () => {
     return (

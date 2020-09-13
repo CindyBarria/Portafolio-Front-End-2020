@@ -7,14 +7,15 @@ const Contact = () => {
         <div className='contacto'>
             <img className='imgContact' src={Fondo} alt={'logo'} />
             <h3>Contacto</h3>
+            <p className='contact-text'>Estoy disponible para trabajar<br></br>¡No dudes en contactarme!</p>
             <div className='iconos-contact' >
-                <span className="devicon-github-plain" ><a className='links' href='https://github.com/CindyBarria'>github.com/CindyBarria</a></span>
-                <span className="devicon-google-plain"><p className='links'>cindybarria@gmail.com</p></span>
-                <span className="devicon-linkedin-plain" style={{ marginLeft: '10%' }}><a className='links' href='https://www.linkedin.com/in/cindybarria/'>linkedin.com/in/cindybarria/</a></span>
-                <div>
-                    <img className="talent" src={Talent} alt='' /><a className='links' href='https://app.talento.laboratoria.la/profile/7pc1I9UDjrYrov97UVu6Z9O8YUz1'>app.talento.laboratoria.la</a>
-                </div>
-
+            <a className='links' href='https://github.com/CindyBarria'><span className="devicon-github-plain" ></span></a> 
+            <a className='links'href='mailto:cindybarria@gmail.com'><span className="fa fa-envelope"></span></a> 
+            <a className='links' href='https://www.linkedin.com/in/cindybarria/'><span className="devicon-linkedin-plain"></span></a>  
+            </div>
+            <div className='container-download'>
+            <p className='download-text'>Descargar CV</p>
+            <span class="fas fa-arrow-circle-down"  style={{marginLeft:'0%'}}></span>
             </div>
         </div>
 

@@ -42,7 +42,8 @@ transition: .3s;
 
  .row{
     justify-content: space-between;
-    width: 100%;
+    width: 112%;
+    height: 16%;
     margin: 0% 0% 0% -6%;
 } 
 .container{
@@ -55,8 +56,8 @@ transition: .3s;
     position: absolute;
 }
 .imgFondo{
-    width: 100%;
-    height: 130vh;
+    width: 100vw;
+    height: 140vh;
     z-index: 1;
     position: absolute;   
 }
@@ -71,11 +72,13 @@ img{
     background: linear-gradient(to bottom, #092346d6 0%, #e0425cd6 100%);
     font-size: 23px;
     border-radius: 1px;
+    width: 112%;
 }
 .card{
     width: 24rem;
     margin: 7% 0% 0% 2%;
     background-color: none;
+    border: none;
 }
 .btn-primary{
     background-color: #092346;
@@ -89,6 +92,9 @@ img{
     background-color:#e0425cd6;
     border:1px solid #ff3e5ed6;
     width: 50%;
+}
+.card-hootie{
+    height: 47vh;
 }
 @media screen and (max-width:600px){
 
@@ -105,6 +111,7 @@ img{
         background: linear-gradient(to bottom, #092346d6 0%, #e0425cd6 100%);
         font-size: 19px;
         border-radius: 1px;
+        width: 115%;
     }
     .card{
         width: 24rem;
@@ -113,9 +120,21 @@ img{
     }
     .imgFondo {
         width: 100%;
-        height: 100vh;
+        height: 105vh;
         z-index: 1;
         position: fixed;
+    }
+    .card-burger,
+    .card-pincel,
+    .card-md,
+    .card-hootie{
+        height: 38vh;
+    }
+    .row {
+        justify-content: space-between;
+        width: 115%;
+        height: 20%;
+        margin: 0% 0% 0% -7%;
     }
 
 }
