@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Home from './components/Home';
 import About from './components/About';
 import Skills from './components/Skills';
@@ -15,11 +15,6 @@ function App() {
       <div className="menu">
         <div className="menu-nav">
           <Nav></Nav>
-          {/*  <Link to='/' className='menu-link'>Inicio</Link>
-          <Link to='/about' className='menu-link'>Biografía</Link>
-          <Link to='/skills' className='menu-link'>Habilidades</Link>
-          <Link to='/projects' className='menu-link'>Proyectos</Link>
-          <Link to='/contact' className='menu-link'>Contacto</Link> */}
         </div>
         <Switch>
           <Route path="/" exact>

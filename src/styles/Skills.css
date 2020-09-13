@@ -109,3 +109,36 @@ span {
     position: fixed;
 }
   }
+  @media (min-width: 768px) and (max-width: 1199px) {
+
+  .skills-icon{
+    display: flex;
+    flex-direction: column;
+    width: 21%;
+  }
+
+    .figma {
+      margin: 0% 3% 0% 10%;
+      display: flex;
+      flex-direction: row;
+      width: 38%;
+      height: 11%;
+    }
+    h4 {
+      font-size: 1.5rem;
+      color: white;
+      margin: 0% 0% -5% 12%;
+  }
+  .description{
+    font-size: 16px;
+    width: 69%;
+    background: none;
+    margin-left: 10%;
+  }
+  .imgSkills{
+    width: 100vw;
+    height: 223vh;
+    z-index: 1;
+    position: absolute;   
+  }
+  }

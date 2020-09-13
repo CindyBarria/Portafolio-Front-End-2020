@@ -27,10 +27,10 @@ p{
     height: 88vh;
 }
 .imagePerfil{
-    width: 27%;
-    height: 82%;
-    border-radius: 63%;
-    margin: 4% 14% 0% 6%;
+    width: 26%;
+    height: 75%;
+    border-radius: 54%;
+    margin: 2% 14% 0% 9%;
 }
 .containerBio{
     z-index: 2;
@@ -62,8 +62,8 @@ p{
     p{
         font-size: 19px;
         font-family: 'News Cycle', sans-serif;
-        width: 100%;
-        margin: 67% 13% 0% 1%;
+        width: 95vw;
+        margin: 67% 13% 0% 2%;
     }
     .biografia{
         display: flex;
@@ -73,11 +73,28 @@ p{
     }
     .imagePerfil{
         width: 45%;
-        height: 36%;
+        height: 32%;
         border-radius: 63%;
         margin: 8% 0% 0% -87%;
     }
     .containerBio{
 z-index: 1;
     } 
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    h3{
+        font-family: 'Handlee', cursive;
+        font-size: 47px;
+        text-align: center;
+        z-index: 3;
+        margin: 1% 0% 0% 30%;
+        color: white;
+        width: 40%;
+    }
+    
+    p{
+        font-size: 18px;
+    
+    }
 }

@@ -91,3 +91,35 @@ background: linear-gradient(to bottom, #092346 0%, #e0425c 100%);
   }
 
 }
+@media (min-width: 768px) and (max-width: 1199px) {
+  .menu-nav{
+    position: relative;
+    background: #092346;
+    height: 14vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 2;
+    padding: 0%;
+  }
+  .menu-links{
+    color: white;
+    text-decoration: none;
+    padding: 5% 2rem;
+  }
+  .menu-links:hover{
+  background: linear-gradient(to bottom, #092346 0%, #e0425c 100%);
+    text-decoration-line: none;
+    color: #ffffff;
+    height: 100%;
+    width: 10%;
+  }
+  .menu-icon{
+    display: none;
+  }
+  .logo{
+    width: 10%;
+    margin-left: 0%;
+  }
+}

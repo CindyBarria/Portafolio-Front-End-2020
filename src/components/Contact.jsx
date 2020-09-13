@@ -1,7 +1,6 @@
 import React from 'react';
 import Fondo from '../assets/fondo2.jpg';
 import '../styles/contact.css';
-import Talent from '../assets/applab.png';
 const Contact = () => {
     return (
         <div className='contacto'>

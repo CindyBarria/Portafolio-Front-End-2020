@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/About.css';
-import Cindy from '../assets/foto1.png'
+import Cindy from '../assets/perfil3.jpg'
 import Fondo from '../assets/fondo2.jpg';
 
 const About = () => {

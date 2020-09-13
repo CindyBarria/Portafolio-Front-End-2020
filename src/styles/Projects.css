@@ -138,3 +138,26 @@ img{
     }
 
 }
+@media (min-width: 768px) and (max-width: 1199px) {
+    .card {
+        width: 20rem;
+        margin: 11% 3% 0% 3%;
+        border: none;
+    }
+    .imgFondo {
+        height: 237vh;
+    }
+    .card-text {
+        margin: 10% 0% 0% -7%;
+        background: linear-gradient(to bottom, #092346d6 0%, #e0425cd6 100%);
+        font-size: 19px;
+        border-radius: 1px;
+        width: 115%;
+    }
+    .row {
+        justify-content: space-between;
+        width: 115%;
+        height: 16%;
+        margin: 0% 0% 0% -7%;
+    }
+}
