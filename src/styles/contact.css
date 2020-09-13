@@ -1,9 +1,9 @@
-.contacto{
-    display: flex;
-    background:white;
-    flex-direction: column;
-    height: 100vh;
-    z-index: 2;
+.contacto {
+  display: flex;
+  background: white;
+  flex-direction: column;
+  height: 100vh;
+  z-index: 2;
 }
 .imgContact {
   width: 100%;
@@ -11,63 +11,61 @@
   z-index: 1;
   position: absolute;
 }
-/* span {
-    margin: 0% 0% 0% 5%;
-    color:white;
-    padding: 3%;
-    font-size: 98px;
+.links {
+  color: white;
+  font-size: 28px;
+  font-family: "News Cycle", sans-serif;
+  margin: 7% 0% 0% 7%;
+  background: none;
+}
+.talent {
+  width: 21%;
+  height: 100%;
+  margin: 0% -5% 0% 26%;
+}
+.iconos-contact {
+  z-index: 2;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: -4%;
+  margin-top: -4%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+}
+.contact-text {
+  margin-left: 28%;
+  text-align: center;
+  margin-top: 0%;
+  background: none;
+  z-index: 2;
+}
+.download-text {
+  background: none;
+  z-index: 2;
+  width: 16%;
+  margin: 1% 0% -4% 1%;
+}
+.container-download {
+  z-index: 2;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.download {
+  margin: 3% 0% 0% 0%;
+}
+@media screen and (max-width: 600px) {
+  .contacto {
     display: flex;
-    flex-direction: row;
-  } */
-  .links{
-    color: white;
-    font-size: 28px;
-    font-family: 'News Cycle', sans-serif;
-    margin: 7% 0% 0% 7%;
-    background: none;
-  }
-  .talent{
-    width: 21%;
-    height: 100%;
-    margin: 0% -5% 0% 26%;
-  }
-  .iconos-contact{
-    z-index: 2;
-    flex-direction: row;
-    justify-content: center;
-    margin-left: -4%;
-    margin-top: -4%;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    align-items: center;
-  }
-  .contact-text{
-    margin-left: 28%;
-    text-align: center;
-    margin-top: 0%;
-    background: none;
-    z-index: 2;
-  }
-  .download-text{
-    background: none;
-    z-index: 2;
-    width: 16%;
-    margin: 1% 0% -4% 1%;
-  }
-  .container-download{
-    z-index: 2;
-    align-items: center;
-    display: flex;
+    background: white;
     flex-direction: column;
+    height: 100vh;
+    z-index: 1;
   }
-  @media screen and (max-width:600px){
-    .contacto{
-      display: flex;
-      background:white;
-      flex-direction: column;
-      height: 100vh;
-      z-index: 1;
+  .download {
+    margin: 0% 0% 0% -15%;
   }
   .imgContact {
     width: 100%;
@@ -75,53 +73,45 @@
     z-index: 1;
     position: absolute;
   }
-/*   span {
-    margin: 0% 0% 0% 5%;
+  .links {
     color: white;
-    padding: 3%;
-    font-size: 60px;
-    display: flex;
-    flex-direction: row;
-    } */
-    .links{
-      color: white;
-      font-family: 'News Cycle', sans-serif;
-      margin: -4% 0% 0% 0%;
-      background: none;
-    }
-    .talent{
-      width: 21%;
-      height: 100%;
-      margin: 0% -5% 0% 21%;
-    }
-    .iconos-contact{
-      z-index: 1;
-      flex-direction: row;
-      justify-content: space-around;
-      margin: 19% 0% 0% -8%;
-      display: flex;
-      flex-wrap: wrap;
-      width: 100%;
-      align-items: center;
-    }
-    .contact-text{
-      margin-left: -1%;
-      text-align: center;
-      margin-top: 18%;
-      background: none;
-      z-index: 1;
-      font-size: 23px;
-    }
-    .download-text{
-      background: none;
-      z-index: 1;
-      width: 40%;
-      margin: 1% -8% 0% 0%;
-    }
-    .container-download{
-      z-index: 1;
-      align-items: center;
-      display: flex;
-      flex-direction: column;
-    }
+    font-family: "News Cycle", sans-serif;
+    margin: -4% 0% 0% 0%;
+    background: none;
   }
+  .talent {
+    width: 21%;
+    height: 100%;
+    margin: 0% -5% 0% 21%;
+  }
+  .iconos-contact {
+    z-index: 1;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 19% 0% 0% -8%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+  }
+  .contact-text {
+    margin-left: -1%;
+    text-align: center;
+    margin-top: 18%;
+    background: none;
+    z-index: 1;
+    font-size: 23px;
+  }
+  .download-text {
+    background: none;
+    z-index: 1;
+    width: 40%;
+    margin: 1% -8% 0% 0%;
+  }
+  .container-download {
+    z-index: 1;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
