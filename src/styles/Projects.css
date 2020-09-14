@@ -56,7 +56,7 @@
   position: absolute;
 }
 .imgFondo {
-  width: 100vw;
+  width: 100%;
   height: 140vh;
   z-index: 1;
   position: absolute;
@@ -75,7 +75,7 @@ img {
   width: 112%;
 }
 .card {
-  width: 24rem;
+  width: 23.3rem;
   margin: 7% 0% 0% 2%;
   background-color: none;
   border: none;
@@ -119,7 +119,7 @@ img {
   }
   .imgFondo {
     width: 100%;
-    height: 105vh;
+    height: 109vh;
     z-index: 1;
     position: fixed;
   }
