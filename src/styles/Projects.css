@@ -42,9 +42,9 @@
 
 .row {
   justify-content: space-between;
-  width: 112%;
+  width: 108%;
   height: 16%;
-  margin: 0% 0% 0% -6%;
+  margin: 0% 0% 0% -4%;
 }
 .container {
   display: flex;
@@ -68,14 +68,14 @@ img {
   display: flex;
 }
 .card-text {
-  margin: 15% 0% 0% -6%;
+  margin: 23% 0% 0% -4%;
   background: linear-gradient(to bottom, #092346d6 0%, #e0425cd6 100%);
-  font-size: 23px;
+  font-size: 35px;
   border-radius: 1px;
-  width: 112%;
+  width: 108%;
 }
 .card {
-  width: 23.3rem;
+  width: 36.3rem;
   margin: 7% 0% 0% 2%;
   background-color: none;
   border: none;
@@ -157,5 +157,31 @@ img {
     width: 115%;
     height: 16%;
     margin: 0% 0% 0% -7%;
+  }
+}
+@media (min-width: 1199px) and (max-width: 1600px) {
+  .card-text {
+    margin: 19% 0 0 -5%;
+    background: linear-gradient(
+      180deg,
+      rgba(9, 35, 70, 0.84) 0,
+      rgba(224, 66, 92, 0.84)
+    );
+    font-size: 27px;
+    border-radius: 1px;
+    width: 110%;
+    height: 98%;
+  }
+  .card {
+    width: 28.3rem;
+    margin: 7% 0% 0% 2%;
+    background-color: none;
+    border: none;
+  }
+  .row {
+    justify-content: space-between;
+    width: 110%;
+    height: 16%;
+    margin: 0% 0% 0% -5%;
   }
 }
