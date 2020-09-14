@@ -115,3 +115,8 @@ p {
     padding: 2%;
   }
 }
+@media screen and (max-width: 1300px) {
+  p {
+    font-size: 25px;
+  }
+}

@@ -133,3 +133,15 @@
     padding: 7% 2rem;
   }
 }
+@media screen and (max-width: 1300px) {
+  .logo {
+    width: 10%;
+    margin-left: -12%;
+    margin-top: -1%;
+  }
+  .menu-links {
+    color: white;
+    text-decoration: none;
+    padding: 5% 2rem;
+  }
+}

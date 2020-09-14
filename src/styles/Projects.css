@@ -185,3 +185,27 @@ img {
     margin: 0% 0% 0% -5%;
   }
 }
+@media screen and (max-width: 1300px) {
+  .card {
+    width: 23.3rem;
+    border: none;
+  }
+  .card-text {
+    margin: 14% 0 0 -6%;
+    background: linear-gradient(
+      180deg,
+      rgba(9, 35, 70, 0.84) 0,
+      rgba(224, 66, 92, 0.84)
+    );
+    font-size: 22px;
+    border-radius: 1px;
+    width: 113%;
+    height: 102%;
+  }
+  .row {
+    justify-content: space-between;
+    width: 113%;
+    height: 16%;
+    margin: 0% 0% 0% -6%;
+  }
+}
